@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agents</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    
+    <header class="header header-not-index">
+        <div class="header__row header__row--top">
+            <div class="container header__nav-container">
+                <div class="header__nav-wrapper flex">
+                    <a href="index.html" class="header__logo link">Womazing</a>
+                    <nav class="header__navigation">
+                        <ul class="header__list flex">
+                            <li class="header__item"><a href="index.html" class="header__link link">Главная</a></li>
+                            <li class="header__item"><a href="shop.html" class="header__link link header__link--color">Магазин</a></li>
+                            <li class="header__item"><a href="about-brand.html" class="header__link link">О бренде</a></li>
+                            <li class="header__item"><a href="contacts.html" class="header__link link">Контакты</a></li>
+                        </ul>
+                        <!-- Пример отдельной кнопки danger -->
+                    </nav>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-danger dropdown-toggle btn-bootstrap-nav" data-bs-toggle="dropdown" aria-expanded="false">
+                        Действие
+                        </button>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Меню</a></li>
+                        <li><a class="dropdown-item" href="#">Главная</a></li>
+                        <li><a class="dropdown-item" href="#">Магазин</a></li>
+                        <li><a class="dropdown-item" href="#">О бренде</a></li>
+                        <li><a class="dropdown-item" href="#">Контакты</a></li>
+                        <!-- <li><hr class="dropdown-divider"></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Отделенная ссылка</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="header__link-wrapper">
+                        <a href="tel:+74958235412" class="header__link-phone link-phone">+7 (495) 823-54-12</a>
+                        <a href="#" class="header__link">
+                            <img src="img/shop.svg" alt="" class="header__img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section intro">
+        <div class="container">
+            <h1 class="general-title">Купальник Glow</h1>
+            <p class="intro__text-wrapper">
+                <span class="text intro__text intro__text--black">Главная - Купальники -</span>
+                <span class="text intro__text intro__text--grey">Купальник Glow</span>
+            </p>
+            <div class="intro__wrapper">
+                <article class="sell sell__wrapper flex">
+                    <div class="sell__img-wrapper">
+                        <img src="img/tovar-2.jpg" alt="" class="sell__img">
+                    </div>
+                    <div class="sell__right-wrapper">
+                        <span class="sell__price">$311</span>
+                        <h3 class="sell__title">Выберите размер</h3>
+                        <ul class="intro__list flex list-reset"> 
+                            <li class="intro__item"><button class="intro__btn btn sell__btn">S</button></li>
+                            <li class="intro__item"><button class="intro__btn btn sell__btn">M</button></li>
+                            <li class="intro__item"><button class="intro__btn btn sell__btn">L</button></li>
+                            <li class="intro__item"><button class="intro__btn btn sell__btn">XL</button></li>
+                            <li class="intro__item"><button class="intro__btn btn sell__btn">XXL</button></li>
+                        </ul>
+                        <h3 class="sell__title">Выберите цвет</h3>
+                        <ul class="intro__list flex list-reset"> 
+                            <li class="sell__item-color sell__item-color--brown"><button class="sell__item-color--brown sell__item-btn"></button></li>
+                            <li class="sell__item-color sell__item-color--grey"><button class="sell__item-color--grey sell__item-btn"></button></li>
+                            <li class="sell__item-color sell__item-color--pink"><button class="sell__item-color--pink sell__item-btn"></button></li>
+                            <li class="sell__item-color sell__item-color--orange"><button class="sell__item-color--orange sell__item-btn"></button></li>
+                        </ul>
+                        <input type="number" class="intro__input" value="1">
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                </article>
+            </div>
+
+            <ul class="new-collect__list list-reset tovar-list flex">
+                <li class="new-collect__item tovar-list__item">
+                    <a href="t-shirt.html" class="tovar-list__link link link-reset-after">
+                        <div class="tovar-list__img-wrapper"><img src="img/tovar-1.jpg" alt="" class="new-collect__img tovar-list__img"></div>
+                        <h3 class="tovar-list__title">Футболка USA</h3>
+                        <span class="tovar-list__price--trait">$229</span>
+                        <span class="tovar-list__price">$129</span> 
+                    </a>   
+                </li>
+                <li class="new-collect__item tovar-list__item">
+                    <a href="sweet-shot.html" class="tovar-list__link link link-reset-after">
+                        <div class="tovar-list__img-wrapper"><img src="img/tovar-3.jpg" alt="" class="new-collect__img tovar-list__img"></div>
+                        <h3 class="tovar-list__title">Свитшот Sweet Shot</h3>
+                        <span class="tovar-list__price">$129</span>
+                    </a>
+                </li>           
+            </ul>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="header__row footer__row">
+                <div class="header__nav-container footer__nav-container">
+                    <div class="header__nav-wrapper flex footer__nav-wrapper">
+                        <a href="index.html" class="header__logo link">Womazing</a>
+                        <nav class="header__navigation footer__navigation">
+                            <ul class="header__list flex">
+                                <li class="header__item"><a href="index.html" class="header__link link">Главная</a></li>
+                                <li class="header__item"><a href="shop.html" class="header__link link header__link--color">Магазин</a></li>
+                                <li class="header__item"><a href="about-brand.html" class="header__link link">О бренде</a></li>
+                                <li class="header__item"><a href="contacts.html" class="header__link link">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__link-wrapper">
+                            <a href="tel:+74958235412" class=" link-phone footer__link-phone link">+7 (495) 823-54-12</a>
+                            <p class="footer__text footer__text-mail">
+                                <a href="mailto:hello@womazing.com" class="footer__link link">hello@womazing.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="footer__list flex">
+                <li class="footer__item">
+                    <p class="footer__text">© Все права защищены</p>
+                    <p class="footer__text">Политика конфиденциальности</p>
+                    <p class="footer__text">Публичная оферта</p>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__list-second">
+                        <li class="footer__item-second">Пальто</li>
+                        <li class="footer__item-second">Свитшоты</li>
+                        <li class="footer__item-second">Кардиганы</li>
+                        <li class="footer__item-second">Толстовки</li>
+                    </ul>
+                </li>
+                <li class="footer__item">
+                    <ul class="footer__list-img flex">
+                        <li class="footer__item-img">
+                            <a href="#" class="footer__link">
+                                <img src="img/instagram.png" alt="" class="footer__img">
+                            </a>
+                        </li>
+                        <li class="footer__item-img">
+                            <a href="#" class="footer__link">
+                                <img src="img/facebook.png" alt="" class="footer__img">
+                            </a>
+                        </li>
+                        <li class="footer__item-img">
+                            <a href="#" class="footer__link">
+                                <img src="img/twitter.png" alt="" class="footer__img">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="footer__list-img">
+                        <li class="footer__item-img">
+                            <img src="img/visa-mastercard.png" alt="" class="footer__img">
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!-- <script src="js/myscript.js"></script> -->
+</body>
+</html>
