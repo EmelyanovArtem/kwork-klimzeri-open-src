@@ -1117,3 +1117,8 @@
   min-height: 68px;
   padding: 0 !important;
 }
+
+.header__btn:hover {
+  background-color: #509498 !important;
+  transition: background-color 0.5s ease;
+}
