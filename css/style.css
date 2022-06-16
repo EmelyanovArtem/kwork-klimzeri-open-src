@@ -9,6 +9,9 @@
 .link {
   color: #000000;
   text-decoration: none;
+  display: block;
+  width: max-content;
+  margin: 0;
 }
 
 .link::after {
@@ -692,8 +695,7 @@
 }
 
 .footer__link-phone {
-  margin-right: 0;
-  text-align: right;
+  float: right;
 }
 
 .header-not-index {
